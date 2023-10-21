@@ -1,0 +1,17 @@
+.gallery {
+    display: flex;
+    justify-content: space-between; /* Adjust as needed */
+    align-items: center;
+  }
+  
+  .gallery span {
+    flex: 0 1 auto; /* Allow each span to grow, but not shrink */
+    margin: 0;
+    padding: 0;
+  }
+  
+  .gallery img {
+    width: 20%; /* Adjust the width as needed */
+    max-width: 100%; /* Ensure images don't exceed their natural size */
+    height: auto; /* Maintain aspect ratio */
+  }
